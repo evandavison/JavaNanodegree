@@ -1,0 +1,32 @@
+String jdbcUrl = "jdbc:mysql://localhost:3306/?useSSL=false";
+			String user = "root";
+			String pwd = "password";
+
+			try {
+
+				try (Connection conn = DriverManager.getConnection(jdbcUrl, user ,pwd)) {
+					System.out.println("Connected to " + conn.getMetaData().getDatabaseProductName());
+					System.out.println("Creating Database...");
+
+					Statement stmt = conn.createStatement();
+
+					//Check to see if database exists.
+					String dbName = "customerreviews";
+					Boolean dbExists = false;
+					ResultSet rs = conn.getMetaData().getCatalogs();
+					while (rs.next()) {
+						String check = rs.getString(1);
+	//					System.out.println(check);
+						if (check.equals(dbName)) {
+							dbExists = true;
+						}
+					}
+					//if the database exists...
+					if (dbExists) {
+						System.out.println("Customer Reviews dB already exists.");
+					} else {
+						String query = "CREATE DATABASE customerreviews";
+						stmt.executeUpdate(query);
+						System.out.println("Database created Successfully");
+					}
+				}
