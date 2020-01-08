@@ -1,0 +1,202 @@
+[INFO ] | 2020-01-07 23:00:31.621 | [http-nio-8080-exec-1] | UserController | New User Created: areYouSure
+[INFO ] | 2020-01-07 23:06:27.538 | [http-nio-8080-exec-2] | UserController | Success
+[INFO ] | 2020-01-07 23:06:39.029 | [http-nio-8080-exec-3] | UserController | Success
+[INFO ] | 2020-01-07 23:06:52.484 | [http-nio-8080-exec-5] | UserController | Success
+[INFO ] | 2020-01-07 23:06:56.665 | [http-nio-8080-exec-6] | UserController | Success
+[INFO ] | 2020-01-07 23:07:02.810 | [http-nio-8080-exec-4] | UserController | Success
+[INFO ] | 2020-01-07 23:07:08.631 | [http-nio-8080-exec-8] | UserController | Success
+[INFO ] | 2020-01-07 23:07:17.607 | [http-nio-8080-exec-10] | UserController | Success
+[INFO ] | 2020-01-07 23:07:27.900 | [http-nio-8080-exec-9] | UserController | Success
+[INFO ] | 2020-01-07 23:07:36.473 | [http-nio-8080-exec-7] | UserController | Success
+[ERROR] | 2020-01-07 23:07:39.723 | [http-nio-8080-exec-1] | UserController | Failure
+[ERROR] | 2020-01-07 23:07:40.542 | [http-nio-8080-exec-3] | UserController | Failure
+[ERROR] | 2020-01-07 23:07:41.418 | [http-nio-8080-exec-6] | UserController | Failure
+[ERROR] | 2020-01-07 23:07:42.265 | [http-nio-8080-exec-8] | UserController | Failure
+[ERROR] | 2020-01-07 23:07:42.967 | [http-nio-8080-exec-9] | UserController | Failure
+[ERROR] | 2020-01-07 23:07:43.775 | [http-nio-8080-exec-1] | UserController | Failure
+[ERROR] | 2020-01-07 23:07:44.531 | [http-nio-8080-exec-3] | UserController | Failure
+[ERROR] | 2020-01-07 23:07:45.132 | [http-nio-8080-exec-5] | UserController | Failure
+[ERROR] | 2020-01-07 23:07:45.949 | [http-nio-8080-exec-8] | UserController | Failure
+[INFO ] | 2020-01-07 23:07:54.009 | [http-nio-8080-exec-9] | UserController | Success
+[INFO ] | 2020-01-07 23:07:59.829 | [http-nio-8080-exec-7] | UserController | Success
+[ERROR] | 2020-01-07 23:08:02.334 | [http-nio-8080-exec-1] | UserController | We messed up.
+[INFO ] | 2020-01-07 23:08:07.413 | [http-nio-8080-exec-3] | UserController | Success
+[ERROR] | 2020-01-07 23:08:14.288 | [http-nio-8080-exec-6] | UserController | Failure
+[ERROR] | 2020-01-07 23:08:16.772 | [http-nio-8080-exec-4] | UserController | Failure
+[ERROR] | 2020-01-07 23:08:18.827 | [http-nio-8080-exec-10] | UserController | Failure
+[INFO ] | 2020-01-07 23:10:04.480 | [http-nio-8080-exec-7] | UserController | Success
+[ERROR] | 2020-01-07 23:13:40.124 | [http-nio-8080-exec-9] | OrderController | Could not find user Evan
+[ERROR] | 2020-01-07 23:14:13.292 | [http-nio-8080-exec-1] | OrderController | Could not find user Evan
+[ERROR] | 2020-01-07 23:14:38.661 | [http-nio-8080-exec-2] | OrderController | Could not find user Evan
+[ERROR] | 2020-01-07 23:14:52.084 | [http-nio-8080-exec-3] | OrderController | Could not find user We Fly High
+[INFO ] | 2020-01-07 23:15:58.549 | [http-nio-8080-exec-1] | UserController | Success
+[INFO ] | 2020-01-07 23:17:35.084 | [http-nio-8080-exec-4] | OrderController | Submitted order for Evan
+[INFO ] | 2020-01-07 23:17:51.268 | [http-nio-8080-exec-8] | OrderController | Submitted order for Evan
+[INFO ] | 2020-01-07 23:17:51.948 | [http-nio-8080-exec-7] | OrderController | Submitted order for Evan
+[INFO ] | 2020-01-07 23:17:52.669 | [http-nio-8080-exec-10] | OrderController | Submitted order for Evan
+[INFO ] | 2020-01-08 08:17:46.714 | [main] | UserController | Success
+[INFO ] | 2020-01-08 08:17:46.715 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 08:17:46.716 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 08:17:56.542 | [main] | UserController | Success
+[INFO ] | 2020-01-08 08:17:56.544 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 08:17:56.545 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 08:38:18.051 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 08:39:01.710 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 08:39:15.585 | [main] | OrderController | Submitted order for test
+[ERROR] | 2020-01-08 08:50:32.805 | [main] | OrderController | Could not find user test
+[INFO ] | 2020-01-08 08:50:32.835 | [main] | UserController | Success
+[INFO ] | 2020-01-08 08:50:32.835 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 08:50:32.836 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 08:51:04.017 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 08:51:04.043 | [main] | UserController | Success
+[INFO ] | 2020-01-08 08:51:04.044 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 08:51:04.045 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 08:52:11.579 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 08:52:11.604 | [main] | UserController | Success
+[INFO ] | 2020-01-08 08:52:11.604 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 08:52:11.605 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 08:53:37.937 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 08:53:37.961 | [main] | UserController | Success
+[INFO ] | 2020-01-08 08:53:37.961 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 08:53:37.962 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 08:54:11.922 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 08:54:11.950 | [main] | UserController | Success
+[INFO ] | 2020-01-08 08:54:11.950 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 08:54:11.951 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 08:57:16.161 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 08:57:16.187 | [main] | UserController | Success
+[INFO ] | 2020-01-08 08:57:16.187 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 08:57:16.188 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:00:44.057 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:00:44.080 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:00:44.080 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:00:44.081 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:02:19.845 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:02:19.869 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:02:19.869 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:02:19.870 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:07:41.366 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:07:41.391 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:07:41.391 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:07:41.392 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:08:53.123 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:08:53.153 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:08:53.154 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:08:53.154 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:15:36.723 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:15:36.764 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:15:36.765 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:15:36.766 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:15:50.800 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:15:50.834 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:15:50.834 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:15:50.835 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:16:03.857 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:16:03.883 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:16:03.884 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:16:03.885 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:22:54.975 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:22:54.976 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 09:22:55.001 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:22:55.002 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:22:55.004 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:23:35.149 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:23:35.150 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 09:23:35.184 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:23:35.184 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:23:35.185 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:27:29.819 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:27:29.821 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 09:27:29.858 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:27:29.858 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:27:29.859 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:37:44.037 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:37:44.039 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 09:37:44.062 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:37:44.063 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:37:44.064 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:40:38.091 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:40:38.092 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 09:40:38.119 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:40:38.119 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:40:38.121 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:45:15.785 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:45:15.787 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 09:45:15.815 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:45:15.815 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:45:15.816 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 09:58:05.740 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 09:58:05.742 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 09:58:05.767 | [main] | UserController | Success
+[INFO ] | 2020-01-08 09:58:05.767 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 09:58:05.768 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:00:02.469 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:00:02.470 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:00:02.494 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:00:02.495 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:00:02.495 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:00:40.698 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:00:40.699 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:00:40.727 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:00:40.727 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:00:40.728 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:02:40.862 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:02:40.864 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:02:40.887 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:02:40.887 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:02:40.888 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:13:32.923 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:13:32.925 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:13:32.948 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:13:32.948 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:13:32.949 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:16:30.202 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:16:30.204 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:16:30.233 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:16:57.537 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:16:57.538 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:16:57.565 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:16:57.565 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:16:57.565 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:19:15.887 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:19:15.889 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:19:15.923 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:19:15.924 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:19:15.924 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:25:57.521 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:25:57.523 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:25:57.552 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:25:57.552 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:25:57.552 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:26:05.199 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:26:05.200 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:26:05.225 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:26:05.225 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:26:05.226 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:26:55.449 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:26:55.450 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:26:55.478 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:26:55.478 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:26:55.479 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:27:56.059 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:27:56.060 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:27:56.083 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:27:56.083 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:27:56.083 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 10:28:32.052 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 10:28:32.053 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 10:28:32.077 | [main] | UserController | Success
+[INFO ] | 2020-01-08 10:28:32.077 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 10:28:32.078 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 13:41:06.878 | [http-nio-8080-exec-4] | UserController | Success
+[ERROR] | 2020-01-08 13:48:52.750 | [http-nio-8080-exec-2] | UserController | We messed up.
+[ERROR] | 2020-01-08 13:49:05.536 | [http-nio-8080-exec-4] | UserController | We messed up.
+[INFO ] | 2020-01-08 13:49:27.737 | [http-nio-8080-exec-1] | UserController | Success
+[INFO ] | 2020-01-08 14:05:07.467 | [main] | UserController | Success
+[INFO ] | 2020-01-08 14:05:07.494 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 14:05:07.495 | [main] | UserController | We found test
+[INFO ] | 2020-01-08 14:05:55.019 | [main] | OrderController | Submitted order for test
+[INFO ] | 2020-01-08 14:05:55.020 | [main] | OrderController | successfully found order history for test
+[INFO ] | 2020-01-08 14:05:55.043 | [main] | UserController | Success
+[INFO ] | 2020-01-08 14:05:55.043 | [main] | UserController | Found user with id 0 with username test.
+[INFO ] | 2020-01-08 14:05:55.044 | [main] | UserController | We found test
