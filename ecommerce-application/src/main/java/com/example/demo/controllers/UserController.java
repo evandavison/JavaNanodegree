@@ -40,8 +40,6 @@ public class UserController {
 
 	@GetMapping("/id/{id}")
 	public ResponseEntity<User> findById(@PathVariable Long id) {
-
-
 		Optional<User> user = userRepository.findById(id);
 		if (user.isPresent()) {
 			log.info("Found user with id " + user.get().getId() + " with username " + user.get().getUsername() + ".");
@@ -58,7 +56,6 @@ public class UserController {
 			return user == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(user);
 		}
 
-	
 	@PostMapping("/create")
 	public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) throws HttpResponseException {
 		try {
@@ -78,12 +75,9 @@ public class UserController {
 			userRepository.save(user);
 			log.info("Success");
 			return ResponseEntity.ok(user);
-		} catch (Exception e){
+		} catch (Exception e) {
 			log.error("We messed up.");
 			return ResponseEntity.badRequest().build();
 		}
 	}
-
-
-	
 }

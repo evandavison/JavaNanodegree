@@ -48,7 +48,12 @@ public class UserControllerTest {
         r.setPassword("testPassword");
         r.setConfirmPassword("testPassword");
 
-        //Testing CreateUser Method from controller.
+        CreateUserRequest bad = new CreateUserRequest();
+        bad.setUsername("test1");
+        bad.setPassword("passwords");
+        bad.setConfirmPassword("password");
+
+        //Testing CreateUser Method from controller with proper Request.
         final ResponseEntity<User> response = userController.createUser(r);
 
         Assert.assertNotNull(response);
@@ -59,6 +64,12 @@ public class UserControllerTest {
         Assert.assertEquals(0, u.getId());
         Assert.assertEquals("test", u.getUsername());
         Assert.assertEquals("thisIsHashed",u.getPassword());
+
+        //testing bad request
+        final ResponseEntity<User> nope = userController.createUser(bad);
+
+        Assert.assertNotNull(nope);
+        Assert.assertEquals(400, nope.getStatusCodeValue());
 
         //Any time findById is run, return the recently created user request.
         when(userRepository.findById((long) 0)).thenReturn(Optional.of(u));

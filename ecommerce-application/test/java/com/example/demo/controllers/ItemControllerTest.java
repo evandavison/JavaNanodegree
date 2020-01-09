@@ -2,25 +2,18 @@ package com.example.demo.controllers;
 
 import com.example.demo.TestUtils;
 import com.example.demo.model.persistence.Item;
-import com.example.demo.model.persistence.User;
-import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.ItemRepository;
-import com.example.demo.model.persistence.repositories.UserRepository;
-import com.example.demo.model.requests.CreateUserRequest;
-import org.apache.coyote.Response;
-import org.h2.command.ddl.CreateUser;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import static java.lang.String.valueOf;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
